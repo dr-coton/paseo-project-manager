@@ -1,0 +1,101 @@
+{
+  "app": {
+    "title": "프로젝트 관리자",
+    "board": "워크스페이스 상태 보드",
+    "cleanup": "오래된 워크스페이스 정리",
+    "projects": "프로젝트 순서·숨김 관리",
+    "sidebarView": "프로젝트 관리자",
+    "sidebarViewDescription": "프로젝트 순서와 숨김을 적용한 사이드바"
+  },
+  "tabs": { "board": "상태 보드", "cleanup": "정리", "projects": "프로젝트" },
+  "state": { "idle": "대기", "developing": "개발중", "review": "확인필요", "archived": "보관됨" },
+  "reason": { "question": "질문·권한 요청", "working": "에이전트 작업 중", "error": "오류 확인", "finished": "완료 확인" },
+  "age": {
+    "none": "활동 기록 없음",
+    "today": "오늘",
+    "yesterday": "어제",
+    "days_other": "{{count}}일 전",
+    "months_other": "{{count}}개월 전",
+    "years_other": "{{count}}년 전"
+  },
+  "date": "{{month}}월 {{day}}일",
+  "common": {
+    "loading": "…",
+    "empty": "없음",
+    "cancel": "취소",
+    "loadFailed": "불러오기 실패: {{error}}",
+    "saveFailed": "저장 실패: {{error}}",
+    "includeHidden": "숨긴 프로젝트 포함",
+    "worktree": "worktree",
+    "background": "백그라운드"
+  },
+  "board": {
+    "ackAll": "전체 확인",
+    "ackAllLabel": "완료·오류 {{n}}개 전체 확인",
+    "acknowledged": "{{n}}개 확인",
+    "archived": "보관됨",
+    "archiveFailed": "보관하지 못했어요",
+    "more": "더 보기 ({{n}})",
+    "open": "{{name}} 열기",
+    "archive": "보관",
+    "archiveLabel": "{{name}} 보관",
+    "confirmArchiveLabel": "{{name}} 보관 확인",
+    "restoreLabel": "{{name}} 대기로 되돌리기",
+    "pinned": "고정됨",
+    "uncommitted": "커밋 안 한 변경",
+    "noNavigation": "이 Paseo 버전은 플러그인에서 워크스페이스 열기를 지원하지 않아요."
+  },
+  "cleanup": {
+    "days": "{{days}}일+",
+    "daysLabel": "마지막 활동 {{days}}일 이상",
+    "onlyHidden": "숨긴 프로젝트만",
+    "nothing": "정리할 워크스페이스 없음",
+    "selectAll": "{{name}} 전체 선택",
+    "deselectAll": "{{name}} 전체 해제",
+    "selected": "{{n}}개 선택",
+    "archive": "{{n}}개 보관",
+    "confirm": "한 번 더 눌러 보관",
+    "archiving": "보관하는 중…",
+    "refresh": "새로고침",
+    "result": "{{archived}}개 보관 완료",
+    "resultSkipped": "{{archived}}개 보관 완료 · {{skipped}}개 건너뜀",
+    "skipped": "건너뜀 {{n}}개: {{reasons}}"
+  },
+  "protect": { "pinned": "고정됨", "not_idle": "대기 상태 아님", "dirty_worktree": "커밋 안 한 변경" },
+  "skip": {
+    "missing": "이미 보관되었거나 찾을 수 없음",
+    "pinned": "고정된 워크스페이스",
+    "not_idle": "대기 상태 아님",
+    "dirty_worktree": "worktree에 커밋 안 한 변경",
+    "failed": "보관 실패"
+  },
+  "projects": {
+    "summary": "{{total}}개",
+    "summaryHidden": "{{total}}개 · 숨김 {{hidden}}",
+    "byName": "이름순",
+    "showAll": "모두 보이기",
+    "moveTop": "{{name}} 맨 위로",
+    "moveUp": "{{name}} 위로",
+    "moveDown": "{{name}} 아래로",
+    "show": "{{name}} 보이기",
+    "hide": "{{name}} 숨기기",
+    "delete": "{{name}} 삭제",
+    "deleteConfirm": "{{name}} 삭제 · 워크스페이스 {{n}}개 닫힘, 폴더는 유지",
+    "deleteButton": "삭제",
+    "deleting": "삭제 중…",
+    "deleted": "{{name}} 삭제됨",
+    "notFound": "프로젝트를 찾을 수 없어요",
+    "busy": "삭제할 수 없어요: 작업 중 {{developing}}개, 질문 대기 {{asking}}개",
+    "sidebarNeedsUpdate": "사이드바 반영은 Paseo 0.16 이상에서 됩니다."
+  },
+  "sidebar": {
+    "pinned": "고정됨",
+    "showHidden": "숨긴 프로젝트 {{n}}개 보기",
+    "hideHidden": "숨긴 프로젝트 감추기",
+    "expand": "{{name}} 펼치기",
+    "collapse": "{{name}} 접기",
+    "newWorkspace": "{{name}}에 새 워크스페이스",
+    "open": "{{name}} 열기",
+    "badge": "확인필요 {{n}}개"
+  }
+}

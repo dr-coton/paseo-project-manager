@@ -1,0 +1,23 @@
+{
+  "id": "project-manager",
+  "name": "Project manager",
+  "description": "A workspace status board, bulk cleanup of old workspaces, and project order, hiding and deletion.",
+  "translations": {
+    "ko": {
+      "name": "프로젝트 관리자",
+      "description": "워크스페이스 상태 보드, 오래된 워크스페이스 일괄 정리, 프로젝트 순서·숨김·삭제를 제공합니다."
+    },
+    "zh-CN": {
+      "name": "项目管理器",
+      "description": "工作区状态看板、批量清理旧工作区，以及项目排序、隐藏和删除。"
+    },
+    "ja": {
+      "name": "プロジェクトマネージャー",
+      "description": "ワークスペースの状態ボード、古いワークスペースの一括整理、プロジェクトの並び替え・非表示・削除。"
+    }
+  },
+  "media": [],
+  "requirements": {
+    "paseo": ">=0.16.0"
+  }
+}

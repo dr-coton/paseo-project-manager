@@ -1,0 +1,101 @@
+{
+  "app": {
+    "title": "项目管理器",
+    "board": "工作区状态看板",
+    "cleanup": "清理旧工作区",
+    "projects": "项目排序与隐藏",
+    "sidebarView": "项目管理器",
+    "sidebarViewDescription": "按你的项目顺序和隐藏设置显示的侧边栏"
+  },
+  "tabs": { "board": "看板", "cleanup": "清理", "projects": "项目" },
+  "state": { "idle": "空闲", "developing": "进行中", "review": "待查看", "archived": "已归档" },
+  "reason": { "question": "提问·权限请求", "working": "代理运行中", "error": "出错", "finished": "已完成" },
+  "age": {
+    "none": "无活动记录",
+    "today": "今天",
+    "yesterday": "昨天",
+    "days_other": "{{count}} 天前",
+    "months_other": "{{count}} 个月前",
+    "years_other": "{{count}} 年前"
+  },
+  "date": "{{month}}月{{day}}日",
+  "common": {
+    "loading": "…",
+    "empty": "无",
+    "cancel": "取消",
+    "loadFailed": "加载失败：{{error}}",
+    "saveFailed": "保存失败：{{error}}",
+    "includeHidden": "包含隐藏的项目",
+    "worktree": "worktree",
+    "background": "后台"
+  },
+  "board": {
+    "ackAll": "全部标为已读",
+    "ackAllLabel": "将 {{n}} 个已完成或出错的工作区标为已读",
+    "acknowledged": "已读 {{n}} 个",
+    "archived": "已归档",
+    "archiveFailed": "归档失败",
+    "more": "更多 ({{n}})",
+    "open": "打开 {{name}}",
+    "archive": "归档",
+    "archiveLabel": "归档 {{name}}",
+    "confirmArchiveLabel": "确认归档 {{name}}",
+    "restoreLabel": "恢复 {{name}}",
+    "pinned": "已置顶",
+    "uncommitted": "有未提交的更改",
+    "noNavigation": "此 Paseo 版本不支持从插件打开工作区。"
+  },
+  "cleanup": {
+    "days": "{{days}}天+",
+    "daysLabel": "最后活动在 {{days}} 天以前",
+    "onlyHidden": "仅隐藏的项目",
+    "nothing": "没有需要清理的工作区",
+    "selectAll": "全选 {{name}}",
+    "deselectAll": "取消选择 {{name}}",
+    "selected": "已选 {{n}} 个",
+    "archive": "归档 {{n}} 个",
+    "confirm": "再点一次以归档",
+    "archiving": "正在归档…",
+    "refresh": "刷新",
+    "result": "已归档 {{archived}} 个",
+    "resultSkipped": "已归档 {{archived}} 个，跳过 {{skipped}} 个",
+    "skipped": "跳过 {{n}} 个：{{reasons}}"
+  },
+  "protect": { "pinned": "已置顶", "not_idle": "非空闲", "dirty_worktree": "有未提交的更改" },
+  "skip": {
+    "missing": "已归档或不存在",
+    "pinned": "已置顶",
+    "not_idle": "非空闲",
+    "dirty_worktree": "worktree 有未提交的更改",
+    "failed": "归档失败"
+  },
+  "projects": {
+    "summary": "{{total}} 个项目",
+    "summaryHidden": "{{total}} 个项目 · 隐藏 {{hidden}} 个",
+    "byName": "按名称排序",
+    "showAll": "全部显示",
+    "moveTop": "将 {{name}} 移到顶部",
+    "moveUp": "上移 {{name}}",
+    "moveDown": "下移 {{name}}",
+    "show": "显示 {{name}}",
+    "hide": "隐藏 {{name}}",
+    "delete": "删除 {{name}}",
+    "deleteConfirm": "删除 {{name}}：关闭 {{n}} 个工作区，保留磁盘上的文件",
+    "deleteButton": "删除",
+    "deleting": "正在删除…",
+    "deleted": "已删除 {{name}}",
+    "notFound": "找不到项目",
+    "busy": "无法删除：{{developing}} 个进行中，{{asking}} 个在等待回答",
+    "sidebarNeedsUpdate": "侧边栏排序需要 Paseo 0.16 或更高版本。"
+  },
+  "sidebar": {
+    "pinned": "已置顶",
+    "showHidden": "显示 {{n}} 个隐藏的项目",
+    "hideHidden": "收起隐藏的项目",
+    "expand": "展开 {{name}}",
+    "collapse": "折叠 {{name}}",
+    "newWorkspace": "在 {{name}} 中新建工作区",
+    "open": "打开 {{name}}",
+    "badge": "{{n}} 个待查看"
+  }
+}

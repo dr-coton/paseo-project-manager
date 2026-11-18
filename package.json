@@ -1,0 +1,46 @@
+{
+  "name": "paseo-project-manager",
+  "version": "1.0.0",
+  "description": "A workspace status board, bulk cleanup of old workspaces, and project order, hiding and deletion for Paseo.",
+  "license": "MIT",
+  "author": "dr-coton",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dr-coton/paseo-project-manager.git"
+  },
+  "keywords": [
+    "paseo",
+    "paseo-plugin",
+    "workspaces"
+  ],
+  "private": true,
+  "files": [
+    "paseo-plugin.json",
+    "OVERVIEW.md",
+    "OVERVIEW.*.md",
+    "index.client.ts",
+    "index.client.tsx",
+    "index.server.ts",
+    "index.server.tsx",
+    "client/",
+    "server/",
+    "shared/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "tsx test/logic.test.mts"
+  },
+  "devDependencies": {
+    "@getpaseo/plugin": "^0.16.2",
+    "@tanstack/react-query": "^5.90.11",
+    "@types/node": "^24.19.2",
+    "@types/react": "~19.2.0",
+    "react": "19.1.0",
+    "react-native": "0.81.5",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3",
+    "zod": "^4.4.3"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "app": {
+    "title": "プロジェクトマネージャー",
+    "board": "ワークスペース状態ボード",
+    "cleanup": "古いワークスペースの整理",
+    "projects": "プロジェクトの並び順と非表示",
+    "sidebarView": "プロジェクトマネージャー",
+    "sidebarViewDescription": "プロジェクトの並び順と非表示を反映したサイドバー"
+  },
+  "tabs": { "board": "ボード", "cleanup": "整理", "projects": "プロジェクト" },
+  "state": { "idle": "待機", "developing": "作業中", "review": "要確認", "archived": "アーカイブ済み" },
+  "reason": { "question": "質問・権限リクエスト", "working": "エージェント実行中", "error": "エラー", "finished": "完了" },
+  "age": {
+    "none": "活動記録なし",
+    "today": "今日",
+    "yesterday": "昨日",
+    "days_other": "{{count}}日前",
+    "months_other": "{{count}}か月前",
+    "years_other": "{{count}}年前"
+  },
+  "date": "{{month}}月{{day}}日",
+  "common": {
+    "loading": "…",
+    "empty": "なし",
+    "cancel": "キャンセル",
+    "loadFailed": "読み込みに失敗しました：{{error}}",
+    "saveFailed": "保存に失敗しました：{{error}}",
+    "includeHidden": "非表示のプロジェクトを含める",
+    "worktree": "worktree",
+    "background": "バックグラウンド"
+  },
+  "board": {
+    "ackAll": "すべて既読",
+    "ackAllLabel": "完了・エラーの {{n}} 件を既読にする",
+    "acknowledged": "{{n}} 件を既読にしました",
+    "archived": "アーカイブしました",
+    "archiveFailed": "アーカイブできませんでした",
+    "more": "さらに表示 ({{n}})",
+    "open": "{{name}} を開く",
+    "archive": "アーカイブ",
+    "archiveLabel": "{{name}} をアーカイブ",
+    "confirmArchiveLabel": "{{name}} のアーカイブを確定",
+    "restoreLabel": "{{name}} を復元",
+    "pinned": "ピン留め",
+    "uncommitted": "未コミットの変更あり",
+    "noNavigation": "この Paseo のバージョンはプラグインからワークスペースを開けません。"
+  },
+  "cleanup": {
+    "days": "{{days}}日+",
+    "daysLabel": "最終活動から {{days}} 日以上",
+    "onlyHidden": "非表示のプロジェクトのみ",
+    "nothing": "整理するワークスペースはありません",
+    "selectAll": "{{name}} をすべて選択",
+    "deselectAll": "{{name}} の選択を解除",
+    "selected": "{{n}} 件選択",
+    "archive": "{{n}} 件アーカイブ",
+    "confirm": "もう一度押してアーカイブ",
+    "archiving": "アーカイブ中…",
+    "refresh": "更新",
+    "result": "{{archived}} 件アーカイブしました",
+    "resultSkipped": "{{archived}} 件アーカイブ、{{skipped}} 件スキップ",
+    "skipped": "スキップ {{n}} 件：{{reasons}}"
+  },
+  "protect": { "pinned": "ピン留め", "not_idle": "待機中ではない", "dirty_worktree": "未コミットの変更" },
+  "skip": {
+    "missing": "アーカイブ済みまたは見つかりません",
+    "pinned": "ピン留め",
+    "not_idle": "待機中ではない",
+    "dirty_worktree": "worktree に未コミットの変更あり",
+    "failed": "アーカイブに失敗"
+  },
+  "projects": {
+    "summary": "{{total}} 件",
+    "summaryHidden": "{{total}} 件 · 非表示 {{hidden}}",
+    "byName": "名前順",
+    "showAll": "すべて表示",
+    "moveTop": "{{name}} を一番上へ",
+    "moveUp": "{{name}} を上へ",
+    "moveDown": "{{name}} を下へ",
+    "show": "{{name}} を表示",
+    "hide": "{{name}} を非表示",
+    "delete": "{{name}} を削除",
+    "deleteConfirm": "{{name}} を削除：ワークスペース {{n}} 件を閉じ、ディスクのファイルは残します",
+    "deleteButton": "削除",
+    "deleting": "削除中…",
+    "deleted": "{{name}} を削除しました",
+    "notFound": "プロジェクトが見つかりません",
+    "busy": "削除できません：作業中 {{developing}} 件、質問待ち {{asking}} 件",
+    "sidebarNeedsUpdate": "サイドバーの並び順には Paseo 0.16 以降が必要です。"
+  },
+  "sidebar": {
+    "pinned": "ピン留め",
+    "showHidden": "非表示のプロジェクト {{n}} 件を表示",
+    "hideHidden": "非表示のプロジェクトを隠す",
+    "expand": "{{name}} を展開",
+    "collapse": "{{name}} を折りたたむ",
+    "newWorkspace": "{{name}} に新しいワークスペース",
+    "open": "{{name}} を開く",
+    "badge": "要確認 {{n}} 件"
+  }
+}
