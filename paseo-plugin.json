@@ -16,7 +16,11 @@
       "description": "ワークスペースの状態ボード、古いワークスペースの一括整理、プロジェクトの並び替え・非表示・削除。"
     }
   },
-  "media": [],
+  "media": [
+    "assets/board.png",
+    "assets/projects.png",
+    "assets/cleanup.png"
+  ],
   "requirements": {
     "paseo": ">=0.16.0"
   }

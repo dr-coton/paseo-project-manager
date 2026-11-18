@@ -6,6 +6,8 @@ A [Paseo](https://paseo.sh) plugin for keeping a busy host tidy:
 - **Cleanup**: archive idle workspaces that have been inactive for 1 to 90 days, in bulk.
 - **Projects**: reorder, hide or delete projects. The order and hidden list apply to the "Project manager" sidebar view.
 
+![Status board](assets/board.png)
+
 The interface is available in English, Korean, Japanese and Simplified Chinese. [한국어 설명](README.ko.md)
 
 ## Install
